@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45077" started-at="2021-05-08T14:47:48 IST" finished-at="2021-05-08T14:48:33 IST">
+    <groups>
+      <group name="Fixed Deposit">
+        <method signature="FD_DataDriven.fd_DataDriven()[pri:0, instance:com.selenium.datadriven.FD_DataDriven@4d41cee]" name="fd_DataDriven" class="com.selenium.datadriven.FD_DataDriven"/>
+      </group> <!-- Fixed Deposit -->
+    </groups>
+    <test name="Default test" duration-ms="45077" started-at="2021-05-08T14:47:48 IST" finished-at="2021-05-08T14:48:33 IST">
+      <class name="com.selenium.datadriven.FD_DataDriven">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.selenium.datadriven.FD_DataDriven@4d41cee]" name="beforeTest" is-config="true" duration-ms="10119" started-at="2021-05-08T14:47:48 IST" finished-at="2021-05-08T14:47:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="fd_DataDriven()[pri:0, instance:com.selenium.datadriven.FD_DataDriven@4d41cee]" name="fd_DataDriven" duration-ms="32609" started-at="2021-05-08T14:47:58 IST" description="Test case to verify fixed deposit for multiple data" finished-at="2021-05-08T14:48:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fd_DataDriven -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.selenium.datadriven.FD_DataDriven@4d41cee]" name="afterTest" is-config="true" duration-ms="2179" started-at="2021-05-08T14:48:31 IST" finished-at="2021-05-08T14:48:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.selenium.datadriven.FD_DataDriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

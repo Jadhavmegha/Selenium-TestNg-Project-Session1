@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="LoginApp" parallel="tests">
+
+  <test name="HRMLogin">
+    <classes>
+      
+      <class name="com.seleniumtest.tesNG.LoginHRM"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="MutualLogin">
+    <classes>
+      <class name="com.seleniumtest.tesNG.NewTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+</suite> <!-- LoginApp -->
