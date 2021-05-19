@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Mutual login successful]]>
+    </line>
+  </reporter-output>
+  <suite name="LoginApp" duration-ms="17644" started-at="2021-05-19T10:29:47 IST" finished-at="2021-05-19T10:30:05 IST">
+    <groups>
+    </groups>
+    <test name="HRMLogin" duration-ms="17644" started-at="2021-05-19T10:29:47 IST" finished-at="2021-05-19T10:30:05 IST">
+      <class name="com.seleniumtest.tesNG.LoginHRM">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.seleniumtest.tesNG.LoginHRM@3f49dace]" name="beforeTest" is-config="true" duration-ms="6947" started-at="2021-05-19T10:29:47 IST" finished-at="2021-05-19T10:29:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.seleniumtest.tesNG.LoginHRM@3f49dace]" name="Login" duration-ms="8891" started-at="2021-05-19T10:29:55 IST" finished-at="2021-05-19T10:30:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.seleniumtest.tesNG.LoginHRM@3f49dace]" name="afterTest" is-config="true" duration-ms="1219" started-at="2021-05-19T10:30:04 IST" finished-at="2021-05-19T10:30:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.seleniumtest.tesNG.LoginHRM -->
+    </test> <!-- HRMLogin -->
+  </suite> <!-- LoginApp -->
+</testng-results>

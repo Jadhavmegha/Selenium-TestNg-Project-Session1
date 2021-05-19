@@ -3,16 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.assignment.pageObjectTest.FixedDepositTestCaseExtentReport">
+      <class name="com.seleniumtest.tesNG.LoginHRM">
         <methods>
-          <include name="fd_300000"/>
-          <include name="fd_100000"/>
-          <include name="updateExtentReport"/>
-          <include name="fd_200000"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- com.assignment.pageObjectTest.FixedDepositTestCaseExtentReport -->
+      </class> <!-- com.seleniumtest.tesNG.LoginHRM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

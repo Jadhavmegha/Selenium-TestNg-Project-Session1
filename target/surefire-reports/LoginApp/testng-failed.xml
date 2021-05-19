@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [LoginApp]" parallel="tests">
+  <test thread-count="5" verbose="0" name="HRMLogin(failed)" parallel="tests">
+    <classes>
+      <class name="com.seleniumtest.tesNG.LoginHRM">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.seleniumtest.tesNG.LoginHRM -->
+    </classes>
+  </test> <!-- HRMLogin(failed) -->
+</suite> <!-- Failed suite [LoginApp] -->

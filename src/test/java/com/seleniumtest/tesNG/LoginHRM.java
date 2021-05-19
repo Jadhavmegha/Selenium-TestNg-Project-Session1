@@ -1,6 +1,9 @@
 package com.seleniumtest.tesNG;
 
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -18,8 +21,8 @@ public class LoginHRM {
 	  
 	  projectPath= System.getProperty("user.dir");
 		
-		System.setProperty("webdriver.chrome.driver", projectPath+"\\BrowserDriver\\chromedriver.exe");
-		
+		//System.setProperty("webdriver.chrome.driver", projectPath+"\\BrowserDriver\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
   }
   
@@ -37,13 +40,13 @@ public class LoginHRM {
 		
 		driver.findElement(By.id("btnLogin")).click();
 		
+		//Thread.sleep(2000);
+		
+		/*driver.findElement(By.id("welcome")).click();    //Credentials are failing on site due to technical issue
+		
 		Thread.sleep(2000);
 		
-		driver.findElement(By.id("welcome")).click();
-		
-		Thread.sleep(2000);
-		
-		driver.findElement(By.xpath("//*[@id=\"welcome-menu\"]/ul/li[2]/a")).click();
+		driver.findElement(By.xpath("//*[@id=\"welcome-menu\"]/ul/li[2]/a")).click(); */
   }
 
   @AfterTest

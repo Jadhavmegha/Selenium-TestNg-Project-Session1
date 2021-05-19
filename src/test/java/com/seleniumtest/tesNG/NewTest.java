@@ -1,6 +1,9 @@
 package com.seleniumtest.tesNG;
 
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +20,8 @@ public class NewTest {
   public void beforeTest() {
 	  
 	  projectPath=System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", projectPath+"\\BrowserDriver\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", projectPath+"\\BrowserDriver\\chromedriver.exe");
+	  WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
   }
   
